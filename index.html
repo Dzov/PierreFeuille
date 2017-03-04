@@ -7,6 +7,16 @@
 </head>
 <body class="flex">
   <h1>Pierre Papier Ciseaux Lézard Spock</h1>
+  <section class="scoreSection">
+    <div class="humanScoreContainer">
+      <h1 class="counterHeader">Vous: </h1>
+      <p id="myCounter" class="counter"></p>
+    </div>
+    <div class="robotScoreContainer">
+      <h1 class="counterHeader">Robot: </h1>
+      <p id="robotCounter" class="counter"></p>
+    </div>
+  </section>
   <div class="choices">
     <button class="pierre btn"></button>
     <button class="papier btn"></button>
@@ -15,8 +25,8 @@
     <button class="spock btn"></button>
   </div>
   <div class="resultatContainer">
-    <p class="resultat">
-    </p>
+    <p class="resultat"></p>
+    <p class="choix"></p>
   </div>
   <script type="text/javascript" src="js/script.js"></script>
 </body>
