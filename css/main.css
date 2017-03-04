@@ -1,0 +1,76 @@
+body {
+  color: #494949;
+  height: 100vh; 
+}
+
+.btn {
+  height: 100px;
+  width: 100px;
+  border: none;
+  transform: scale(1);
+  border-radius: 5px; 
+}
+
+.btn:active {
+transform: scale(.8);
+}
+
+.choices {
+  width: 60%; 
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+.flex {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.consignes {
+  font-size: 18px; 
+}
+
+.resultatContainer {
+  background-color: cornflowerblue;
+  height: 150px; 
+  width: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px; 
+}
+
+.resultat {
+  font-size: 20px;
+  color: #494949;
+}
+
+.pierre {
+  background: url("../img/pierre.jpg") no-repeat center center; 
+  background-size: contain; 
+}
+
+.papier {
+  background: url("../img/feuille.jpg") no-repeat center center; 
+  background-size: contain; 
+}
+
+.ciseaux {
+  background: url("../img/ciseaux.jpg") no-repeat center center; 
+  background-size: contain; 
+}
+
+.lézard {
+  background: url("../img/lezard.jpg") no-repeat center center; 
+  background-size: contain; 
+}
+
+.spock {
+  background: url("../img/spock.jpg") no-repeat center center; 
+  background-size: contain; 
+}
+
+
